@@ -2,7 +2,7 @@
 {% load staticfiles %}
 
 {% block title_block %}
-	{{About Rango.name}}
+	About Rango
 {% endblock %}	
 	 	
 {% block body_block %}	
@@ -17,7 +17,7 @@
 			alt="Picture of Rango" />
 	</div>
 	<div>
-		<img src="{%media'images/cat.jpg'%}"
+		<img src="{% media'images/cat.jpg'%}"
 			alt="Picture of Cat" />
 	</div>
 {% endblock %}
